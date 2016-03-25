@@ -23,6 +23,8 @@ class Frame
 end
 
 class TextFrame < Frame
+  attr_accessor :font, :font_size, :color
+
   def apply(src, value)
   end
 end
